@@ -58,17 +58,6 @@ this.jMenu4.disable();
         jLabel6 = new javax.swing.JLabel();
         jLabel7 = new javax.swing.JLabel();
         jLabel8 = new javax.swing.JLabel();
-        pVentasFecha1 = new vista.PVentasFechaV();
-        pVentasDia1 = new vista.PVentasDiaV();
-        pModificarCuenta1 = new vista.PModificarCuentaV();
-        pImprimirFactura1 = new vista.PImprimirFacturaV();
-        pAdministrador1 = new vista.PAdministrador();
-        pAnularFacturaA1 = new vista.PAnularFacturaA();
-        pCrearVendedorA1 = new vista.PCrearVendedorA();
-        pListarProductosA1 = new vista.PListarProductosA();
-        pEliminarVendedorA1 = new vista.PEliminarVendedorA();
-        pListarVendedoresA1 = new vista.PListarVendedoresA();
-        pModificarVendedorA1 = new vista.PModificarVendedorA();
         jMenuBar1 = new javax.swing.JMenuBar();
         jMenu1 = new javax.swing.JMenu();
         jMenuItem4 = new javax.swing.JMenuItem();
@@ -169,17 +158,6 @@ this.jMenu4.disable();
         );
 
         getContentPane().add(jPanel1, new org.netbeans.lib.awtextra.AbsoluteConstraints(22, 11, -1, -1));
-        getContentPane().add(pVentasFecha1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 160, -1, -1));
-        getContentPane().add(pVentasDia1, new org.netbeans.lib.awtextra.AbsoluteConstraints(40, 210, -1, -1));
-        getContentPane().add(pModificarCuenta1, new org.netbeans.lib.awtextra.AbsoluteConstraints(20, 190, -1, -1));
-        getContentPane().add(pImprimirFactura1, new org.netbeans.lib.awtextra.AbsoluteConstraints(-10, 150, -1, -1));
-        getContentPane().add(pAdministrador1, new org.netbeans.lib.awtextra.AbsoluteConstraints(60, 160, -1, -1));
-        getContentPane().add(pAnularFacturaA1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 160, -1, -1));
-        getContentPane().add(pCrearVendedorA1, new org.netbeans.lib.awtextra.AbsoluteConstraints(120, 160, -1, -1));
-        getContentPane().add(pListarProductosA1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 160, -1, -1));
-        getContentPane().add(pEliminarVendedorA1, new org.netbeans.lib.awtextra.AbsoluteConstraints(90, 160, -1, -1));
-        getContentPane().add(pListarVendedoresA1, new org.netbeans.lib.awtextra.AbsoluteConstraints(70, 160, -1, -1));
-        getContentPane().add(pModificarVendedorA1, new org.netbeans.lib.awtextra.AbsoluteConstraints(80, 160, -1, -1));
 
         jMenu1.setText("File");
 
@@ -436,17 +414,6 @@ this.jMenu4.disable();
     private javax.swing.JMenuItem jMenuItem8;
     private javax.swing.JMenuItem jMenuItem9;
     private javax.swing.JPanel jPanel1;
-    private static vista.PAdministrador pAdministrador1;
-    private static vista.PAnularFacturaA pAnularFacturaA1;
-    private static vista.PCrearVendedorA pCrearVendedorA1;
-    private static vista.PEliminarVendedorA pEliminarVendedorA1;
-    private static vista.PImprimirFacturaV pImprimirFactura1;
-    private static vista.PListarProductosA pListarProductosA1;
-    private static vista.PListarVendedoresA pListarVendedoresA1;
-    private static vista.PModificarCuentaV pModificarCuenta1;
-    private static vista.PModificarVendedorA pModificarVendedorA1;
-    private static vista.PVentasDiaV pVentasDia1;
-    private static vista.PVentasFechaV pVentasFecha1;
     // End of variables declaration//GEN-END:variables
     private List<javax.swing.JPanel> paneles=new ArrayList();
     public void visualizarPanel(javax.swing.JPanel panel){
